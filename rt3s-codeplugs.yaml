@@ -500,6 +500,231 @@ channels:
       vox: !<!default> ""
   - digital:
       id: ch31
+      name: 2RMP 9990 Parrot
+      rxFrequency: 438.72500000000002
+      txFrequency: 433.72500000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS2
+      radioId: id1
+      groupList: grp16
+      contact: cont1
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch32
+      name: 2RMP 3801 VK Chat
+      rxFrequency: 438.72500000000002
+      txFrequency: 433.72500000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp1
+      contact: cont2
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch33
+      name: 2RMP 3802 VK Chat
+      rxFrequency: 438.72500000000002
+      txFrequency: 433.72500000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp2
+      contact: cont3
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch34
+      name: 2RMP 3803 VK Chat
+      rxFrequency: 438.72500000000002
+      txFrequency: 433.72500000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp3
+      contact: cont4
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch35
+      name: 2RMP 3804 VK Chat
+      rxFrequency: 438.72500000000002
+      txFrequency: 433.72500000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp4
+      contact: cont5
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch36
+      name: 2RMP 3805 VK Chat
+      rxFrequency: 438.72500000000002
+      txFrequency: 433.72500000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp5
+      contact: cont6
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch37
+      name: 2RMP 3806 VK Chat
+      rxFrequency: 438.72500000000002
+      txFrequency: 433.72500000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp6
+      contact: cont7
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch38
+      name: 2RMP 3807 VK Chat
+      rxFrequency: 438.72500000000002
+      txFrequency: 433.72500000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp7
+      contact: cont8
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch39
+      name: 2RMP 3808 VK Chat
+      rxFrequency: 438.72500000000002
+      txFrequency: 433.72500000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp8
+      contact: cont9
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch40
+      name: 2RMP 3809 VK Chat
+      rxFrequency: 438.72500000000002
+      txFrequency: 433.72500000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp9
+      contact: cont10
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch41
+      name: 2RMP 3810 WICEN
+      rxFrequency: 438.72500000000002
+      txFrequency: 433.72500000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp10
+      contact: cont11
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch42
+      name: 2RMP 1 WW
+      rxFrequency: 438.72500000000002
+      txFrequency: 433.72500000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp11
+      contact: cont12
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch43
+      name: 2RMP 5 Broadcasts
+      rxFrequency: 438.72500000000002
+      txFrequency: 433.72500000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp12
+      contact: cont13
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch44
+      name: 2RMP 9 Local
+      rxFrequency: 438.72500000000002
+      txFrequency: 433.72500000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp13
+      contact: cont14
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch45
+      name: 2RMP 53 VK Chat
+      rxFrequency: 438.72500000000002
+      txFrequency: 433.72500000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp14
+      contact: cont15
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch46
       name: VK Simplex
       rxFrequency: 439.19999999999999
       txFrequency: 439.19999999999999
@@ -522,8 +747,12 @@ zones:
     A: [ch16, ch17, ch18, ch19, ch20, ch21, ch22, ch23, ch24, ch25, ch26, ch27, ch28, ch29, ch30]
     B: []
   - id: zone3
+    name: VK2RMP
+    A: [ch31, ch32, ch33, ch34, ch35, ch36, ch37, ch38, ch39, ch40, ch41, ch42, ch43, ch44, ch45]
+    B: []
+  - id: zone4
     name: VK Simplex
-    A: [ch31]
+    A: [ch46]
     B: []
 commercial:
   encryptionKeys:
