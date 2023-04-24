@@ -65,22 +65,22 @@ channels:
       vox: !<!default> ""
   - digital:
       id: ch2
-      name: 2RWI 3801 VK Chat
+      name: 2RWI 505 VK Call
       rxFrequency: 438.60000000000002
       txFrequency: 433.60000000000002
       rxOnly: false
       admit: Always
       colorCode: 1
-      timeSlot: TS1
+      timeSlot: TS2
       radioId: id1
-      groupList: grp1
-      contact: cont2
+      groupList: grp15
+      contact: cont16
       power: !<!default> ""
       timeout: !<!default> ""
       vox: !<!default> ""
   - digital:
       id: ch3
-      name: 2RWI 3802 VK Chat
+      name: 2RWI 9 Local
       rxFrequency: 438.60000000000002
       txFrequency: 433.60000000000002
       rxOnly: false
@@ -88,148 +88,13 @@ channels:
       colorCode: 1
       timeSlot: TS1
       radioId: id1
-      groupList: grp2
-      contact: cont3
+      groupList: grp13
+      contact: cont14
       power: !<!default> ""
       timeout: !<!default> ""
       vox: !<!default> ""
   - digital:
       id: ch4
-      name: 2RWI 3803 VK Chat
-      rxFrequency: 438.60000000000002
-      txFrequency: 433.60000000000002
-      rxOnly: false
-      admit: Always
-      colorCode: 1
-      timeSlot: TS1
-      radioId: id1
-      groupList: grp3
-      contact: cont4
-      power: !<!default> ""
-      timeout: !<!default> ""
-      vox: !<!default> ""
-  - digital:
-      id: ch5
-      name: 2RWI 3804 VK Chat
-      rxFrequency: 438.60000000000002
-      txFrequency: 433.60000000000002
-      rxOnly: false
-      admit: Always
-      colorCode: 1
-      timeSlot: TS1
-      radioId: id1
-      groupList: grp4
-      contact: cont5
-      power: !<!default> ""
-      timeout: !<!default> ""
-      vox: !<!default> ""
-  - digital:
-      id: ch6
-      name: 2RWI 3805 VK Chat
-      rxFrequency: 438.60000000000002
-      txFrequency: 433.60000000000002
-      rxOnly: false
-      admit: Always
-      colorCode: 1
-      timeSlot: TS1
-      radioId: id1
-      groupList: grp5
-      contact: cont6
-      power: !<!default> ""
-      timeout: !<!default> ""
-      vox: !<!default> ""
-  - digital:
-      id: ch7
-      name: 2RWI 3806 VK Chat
-      rxFrequency: 438.60000000000002
-      txFrequency: 433.60000000000002
-      rxOnly: false
-      admit: Always
-      colorCode: 1
-      timeSlot: TS1
-      radioId: id1
-      groupList: grp6
-      contact: cont7
-      power: !<!default> ""
-      timeout: !<!default> ""
-      vox: !<!default> ""
-  - digital:
-      id: ch8
-      name: 2RWI 3807 VK Chat
-      rxFrequency: 438.60000000000002
-      txFrequency: 433.60000000000002
-      rxOnly: false
-      admit: Always
-      colorCode: 1
-      timeSlot: TS1
-      radioId: id1
-      groupList: grp7
-      contact: cont8
-      power: !<!default> ""
-      timeout: !<!default> ""
-      vox: !<!default> ""
-  - digital:
-      id: ch9
-      name: 2RWI 3808 VK Chat
-      rxFrequency: 438.60000000000002
-      txFrequency: 433.60000000000002
-      rxOnly: false
-      admit: Always
-      colorCode: 1
-      timeSlot: TS1
-      radioId: id1
-      groupList: grp8
-      contact: cont9
-      power: !<!default> ""
-      timeout: !<!default> ""
-      vox: !<!default> ""
-  - digital:
-      id: ch10
-      name: 2RWI 3809 VK Chat
-      rxFrequency: 438.60000000000002
-      txFrequency: 433.60000000000002
-      rxOnly: false
-      admit: Always
-      colorCode: 1
-      timeSlot: TS1
-      radioId: id1
-      groupList: grp9
-      contact: cont10
-      power: !<!default> ""
-      timeout: !<!default> ""
-      vox: !<!default> ""
-  - digital:
-      id: ch11
-      name: 2RWI 3810 WICEN
-      rxFrequency: 438.60000000000002
-      txFrequency: 433.60000000000002
-      rxOnly: false
-      admit: Always
-      colorCode: 1
-      timeSlot: TS1
-      radioId: id1
-      groupList: grp10
-      contact: cont11
-      power: !<!default> ""
-      timeout: !<!default> ""
-      vox: !<!default> ""
-  - digital:
-      id: ch12
-      name: 2RWI 1 WW
-      rxFrequency: 438.60000000000002
-      txFrequency: 433.60000000000002
-      rxOnly: false
-      admit: Always
-      colorCode: 1
-      timeSlot: TS1
-      radioId: id1
-      groupList: grp11
-      contact: cont12
-      power: !<!default> ""
-      timeout: !<!default> ""
-      vox: !<!default> ""
-  - digital:
-      id: ch13
       name: 2RWI 5 Broadcasts
       rxFrequency: 438.60000000000002
       txFrequency: 433.60000000000002
@@ -244,8 +109,8 @@ channels:
       timeout: !<!default> ""
       vox: !<!default> ""
   - digital:
-      id: ch14
-      name: 2RWI 9 Local
+      id: ch5
+      name: 2RWI 3801 VK Chat
       rxFrequency: 438.60000000000002
       txFrequency: 433.60000000000002
       rxOnly: false
@@ -253,8 +118,143 @@ channels:
       colorCode: 1
       timeSlot: TS1
       radioId: id1
-      groupList: grp13
-      contact: cont14
+      groupList: grp1
+      contact: cont2
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch6
+      name: 2RWI 3802 VK Chat
+      rxFrequency: 438.60000000000002
+      txFrequency: 433.60000000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp2
+      contact: cont3
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch7
+      name: 2RWI 3803 VK Chat
+      rxFrequency: 438.60000000000002
+      txFrequency: 433.60000000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp3
+      contact: cont4
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch8
+      name: 2RWI 3804 VK Chat
+      rxFrequency: 438.60000000000002
+      txFrequency: 433.60000000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp4
+      contact: cont5
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch9
+      name: 2RWI 3805 VK Chat
+      rxFrequency: 438.60000000000002
+      txFrequency: 433.60000000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp5
+      contact: cont6
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch10
+      name: 2RWI 3806 VK Chat
+      rxFrequency: 438.60000000000002
+      txFrequency: 433.60000000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp6
+      contact: cont7
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch11
+      name: 2RWI 3807 VK Chat
+      rxFrequency: 438.60000000000002
+      txFrequency: 433.60000000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp7
+      contact: cont8
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch12
+      name: 2RWI 3808 VK Chat
+      rxFrequency: 438.60000000000002
+      txFrequency: 433.60000000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp8
+      contact: cont9
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch13
+      name: 2RWI 3809 VK Chat
+      rxFrequency: 438.60000000000002
+      txFrequency: 433.60000000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp9
+      contact: cont10
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch14
+      name: 2RWI 3810 WICEN
+      rxFrequency: 438.60000000000002
+      txFrequency: 433.60000000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp10
+      contact: cont11
       power: !<!default> ""
       timeout: !<!default> ""
       vox: !<!default> ""
@@ -275,6 +275,21 @@ channels:
       vox: !<!default> ""
   - digital:
       id: ch16
+      name: 2RWI 1 WW
+      rxFrequency: 438.60000000000002
+      txFrequency: 433.60000000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp11
+      contact: cont12
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch17
       name: 2RCG 9990 Parrot
       rxFrequency: 439.5
       txFrequency: 434.5
@@ -289,187 +304,22 @@ channels:
       timeout: !<!default> ""
       vox: !<!default> ""
   - digital:
-      id: ch17
-      name: 2RCG 3801 VK Chat
-      rxFrequency: 439.5
-      txFrequency: 434.5
-      rxOnly: false
-      admit: Always
-      colorCode: 1
-      timeSlot: TS1
-      radioId: id1
-      groupList: grp1
-      contact: cont2
-      power: !<!default> ""
-      timeout: !<!default> ""
-      vox: !<!default> ""
-  - digital:
       id: ch18
-      name: 2RCG 3802 VK Chat
+      name: 2RCG 505 VK Call
       rxFrequency: 439.5
       txFrequency: 434.5
       rxOnly: false
       admit: Always
       colorCode: 1
-      timeSlot: TS1
+      timeSlot: TS2
       radioId: id1
-      groupList: grp2
-      contact: cont3
+      groupList: grp15
+      contact: cont16
       power: !<!default> ""
       timeout: !<!default> ""
       vox: !<!default> ""
   - digital:
       id: ch19
-      name: 2RCG 3803 VK Chat
-      rxFrequency: 439.5
-      txFrequency: 434.5
-      rxOnly: false
-      admit: Always
-      colorCode: 1
-      timeSlot: TS1
-      radioId: id1
-      groupList: grp3
-      contact: cont4
-      power: !<!default> ""
-      timeout: !<!default> ""
-      vox: !<!default> ""
-  - digital:
-      id: ch20
-      name: 2RCG 3804 VK Chat
-      rxFrequency: 439.5
-      txFrequency: 434.5
-      rxOnly: false
-      admit: Always
-      colorCode: 1
-      timeSlot: TS1
-      radioId: id1
-      groupList: grp4
-      contact: cont5
-      power: !<!default> ""
-      timeout: !<!default> ""
-      vox: !<!default> ""
-  - digital:
-      id: ch21
-      name: 2RCG 3805 VK Chat
-      rxFrequency: 439.5
-      txFrequency: 434.5
-      rxOnly: false
-      admit: Always
-      colorCode: 1
-      timeSlot: TS1
-      radioId: id1
-      groupList: grp5
-      contact: cont6
-      power: !<!default> ""
-      timeout: !<!default> ""
-      vox: !<!default> ""
-  - digital:
-      id: ch22
-      name: 2RCG 3806 VK Chat
-      rxFrequency: 439.5
-      txFrequency: 434.5
-      rxOnly: false
-      admit: Always
-      colorCode: 1
-      timeSlot: TS1
-      radioId: id1
-      groupList: grp6
-      contact: cont7
-      power: !<!default> ""
-      timeout: !<!default> ""
-      vox: !<!default> ""
-  - digital:
-      id: ch23
-      name: 2RCG 3807 VK Chat
-      rxFrequency: 439.5
-      txFrequency: 434.5
-      rxOnly: false
-      admit: Always
-      colorCode: 1
-      timeSlot: TS1
-      radioId: id1
-      groupList: grp7
-      contact: cont8
-      power: !<!default> ""
-      timeout: !<!default> ""
-      vox: !<!default> ""
-  - digital:
-      id: ch24
-      name: 2RCG 3808 VK Chat
-      rxFrequency: 439.5
-      txFrequency: 434.5
-      rxOnly: false
-      admit: Always
-      colorCode: 1
-      timeSlot: TS1
-      radioId: id1
-      groupList: grp8
-      contact: cont9
-      power: !<!default> ""
-      timeout: !<!default> ""
-      vox: !<!default> ""
-  - digital:
-      id: ch25
-      name: 2RCG 3809 VK Chat
-      rxFrequency: 439.5
-      txFrequency: 434.5
-      rxOnly: false
-      admit: Always
-      colorCode: 1
-      timeSlot: TS1
-      radioId: id1
-      groupList: grp9
-      contact: cont10
-      power: !<!default> ""
-      timeout: !<!default> ""
-      vox: !<!default> ""
-  - digital:
-      id: ch26
-      name: 2RCG 3810 WICEN
-      rxFrequency: 439.5
-      txFrequency: 434.5
-      rxOnly: false
-      admit: Always
-      colorCode: 1
-      timeSlot: TS1
-      radioId: id1
-      groupList: grp10
-      contact: cont11
-      power: !<!default> ""
-      timeout: !<!default> ""
-      vox: !<!default> ""
-  - digital:
-      id: ch27
-      name: 2RCG 1 WW
-      rxFrequency: 439.5
-      txFrequency: 434.5
-      rxOnly: false
-      admit: Always
-      colorCode: 1
-      timeSlot: TS1
-      radioId: id1
-      groupList: grp11
-      contact: cont12
-      power: !<!default> ""
-      timeout: !<!default> ""
-      vox: !<!default> ""
-  - digital:
-      id: ch28
-      name: 2RCG 5 Broadcasts
-      rxFrequency: 439.5
-      txFrequency: 434.5
-      rxOnly: false
-      admit: Always
-      colorCode: 1
-      timeSlot: TS1
-      radioId: id1
-      groupList: grp12
-      contact: cont13
-      power: !<!default> ""
-      timeout: !<!default> ""
-      vox: !<!default> ""
-  - digital:
-      id: ch29
       name: 2RCG 9 Local
       rxFrequency: 439.5
       txFrequency: 434.5
@@ -484,7 +334,172 @@ channels:
       timeout: !<!default> ""
       vox: !<!default> ""
   - digital:
+      id: ch20
+      name: 2RCG 5 Broadcasts
+      rxFrequency: 439.5
+      txFrequency: 434.5
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp12
+      contact: cont13
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch21
+      name: 2RCG 3801 VK Chat
+      rxFrequency: 439.5
+      txFrequency: 434.5
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp1
+      contact: cont2
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch22
+      name: 2RCG 3802 VK Chat
+      rxFrequency: 439.5
+      txFrequency: 434.5
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp2
+      contact: cont3
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch23
+      name: 2RCG 3803 VK Chat
+      rxFrequency: 439.5
+      txFrequency: 434.5
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp3
+      contact: cont4
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch24
+      name: 2RCG 3804 VK Chat
+      rxFrequency: 439.5
+      txFrequency: 434.5
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp4
+      contact: cont5
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch25
+      name: 2RCG 3805 VK Chat
+      rxFrequency: 439.5
+      txFrequency: 434.5
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp5
+      contact: cont6
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch26
+      name: 2RCG 3806 VK Chat
+      rxFrequency: 439.5
+      txFrequency: 434.5
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp6
+      contact: cont7
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch27
+      name: 2RCG 3807 VK Chat
+      rxFrequency: 439.5
+      txFrequency: 434.5
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp7
+      contact: cont8
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch28
+      name: 2RCG 3808 VK Chat
+      rxFrequency: 439.5
+      txFrequency: 434.5
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp8
+      contact: cont9
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch29
+      name: 2RCG 3809 VK Chat
+      rxFrequency: 439.5
+      txFrequency: 434.5
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp9
+      contact: cont10
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
       id: ch30
+      name: 2RCG 3810 WICEN
+      rxFrequency: 439.5
+      txFrequency: 434.5
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp10
+      contact: cont11
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch31
       name: 2RCG 53 VK Chat
       rxFrequency: 439.5
       txFrequency: 434.5
@@ -499,7 +514,22 @@ channels:
       timeout: !<!default> ""
       vox: !<!default> ""
   - digital:
-      id: ch31
+      id: ch32
+      name: 2RCG 1 WW
+      rxFrequency: 439.5
+      txFrequency: 434.5
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp11
+      contact: cont12
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch33
       name: 2RMP 9990 Parrot
       rxFrequency: 438.72500000000002
       txFrequency: 433.72500000000002
@@ -514,187 +544,22 @@ channels:
       timeout: !<!default> ""
       vox: !<!default> ""
   - digital:
-      id: ch32
-      name: 2RMP 3801 VK Chat
-      rxFrequency: 438.72500000000002
-      txFrequency: 433.72500000000002
-      rxOnly: false
-      admit: Always
-      colorCode: 1
-      timeSlot: TS1
-      radioId: id1
-      groupList: grp1
-      contact: cont2
-      power: !<!default> ""
-      timeout: !<!default> ""
-      vox: !<!default> ""
-  - digital:
-      id: ch33
-      name: 2RMP 3802 VK Chat
-      rxFrequency: 438.72500000000002
-      txFrequency: 433.72500000000002
-      rxOnly: false
-      admit: Always
-      colorCode: 1
-      timeSlot: TS1
-      radioId: id1
-      groupList: grp2
-      contact: cont3
-      power: !<!default> ""
-      timeout: !<!default> ""
-      vox: !<!default> ""
-  - digital:
       id: ch34
-      name: 2RMP 3803 VK Chat
+      name: 2RMP 505 VK Call
       rxFrequency: 438.72500000000002
       txFrequency: 433.72500000000002
       rxOnly: false
       admit: Always
       colorCode: 1
-      timeSlot: TS1
+      timeSlot: TS2
       radioId: id1
-      groupList: grp3
-      contact: cont4
+      groupList: grp15
+      contact: cont16
       power: !<!default> ""
       timeout: !<!default> ""
       vox: !<!default> ""
   - digital:
       id: ch35
-      name: 2RMP 3804 VK Chat
-      rxFrequency: 438.72500000000002
-      txFrequency: 433.72500000000002
-      rxOnly: false
-      admit: Always
-      colorCode: 1
-      timeSlot: TS1
-      radioId: id1
-      groupList: grp4
-      contact: cont5
-      power: !<!default> ""
-      timeout: !<!default> ""
-      vox: !<!default> ""
-  - digital:
-      id: ch36
-      name: 2RMP 3805 VK Chat
-      rxFrequency: 438.72500000000002
-      txFrequency: 433.72500000000002
-      rxOnly: false
-      admit: Always
-      colorCode: 1
-      timeSlot: TS1
-      radioId: id1
-      groupList: grp5
-      contact: cont6
-      power: !<!default> ""
-      timeout: !<!default> ""
-      vox: !<!default> ""
-  - digital:
-      id: ch37
-      name: 2RMP 3806 VK Chat
-      rxFrequency: 438.72500000000002
-      txFrequency: 433.72500000000002
-      rxOnly: false
-      admit: Always
-      colorCode: 1
-      timeSlot: TS1
-      radioId: id1
-      groupList: grp6
-      contact: cont7
-      power: !<!default> ""
-      timeout: !<!default> ""
-      vox: !<!default> ""
-  - digital:
-      id: ch38
-      name: 2RMP 3807 VK Chat
-      rxFrequency: 438.72500000000002
-      txFrequency: 433.72500000000002
-      rxOnly: false
-      admit: Always
-      colorCode: 1
-      timeSlot: TS1
-      radioId: id1
-      groupList: grp7
-      contact: cont8
-      power: !<!default> ""
-      timeout: !<!default> ""
-      vox: !<!default> ""
-  - digital:
-      id: ch39
-      name: 2RMP 3808 VK Chat
-      rxFrequency: 438.72500000000002
-      txFrequency: 433.72500000000002
-      rxOnly: false
-      admit: Always
-      colorCode: 1
-      timeSlot: TS1
-      radioId: id1
-      groupList: grp8
-      contact: cont9
-      power: !<!default> ""
-      timeout: !<!default> ""
-      vox: !<!default> ""
-  - digital:
-      id: ch40
-      name: 2RMP 3809 VK Chat
-      rxFrequency: 438.72500000000002
-      txFrequency: 433.72500000000002
-      rxOnly: false
-      admit: Always
-      colorCode: 1
-      timeSlot: TS1
-      radioId: id1
-      groupList: grp9
-      contact: cont10
-      power: !<!default> ""
-      timeout: !<!default> ""
-      vox: !<!default> ""
-  - digital:
-      id: ch41
-      name: 2RMP 3810 WICEN
-      rxFrequency: 438.72500000000002
-      txFrequency: 433.72500000000002
-      rxOnly: false
-      admit: Always
-      colorCode: 1
-      timeSlot: TS1
-      radioId: id1
-      groupList: grp10
-      contact: cont11
-      power: !<!default> ""
-      timeout: !<!default> ""
-      vox: !<!default> ""
-  - digital:
-      id: ch42
-      name: 2RMP 1 WW
-      rxFrequency: 438.72500000000002
-      txFrequency: 433.72500000000002
-      rxOnly: false
-      admit: Always
-      colorCode: 1
-      timeSlot: TS1
-      radioId: id1
-      groupList: grp11
-      contact: cont12
-      power: !<!default> ""
-      timeout: !<!default> ""
-      vox: !<!default> ""
-  - digital:
-      id: ch43
-      name: 2RMP 5 Broadcasts
-      rxFrequency: 438.72500000000002
-      txFrequency: 433.72500000000002
-      rxOnly: false
-      admit: Always
-      colorCode: 1
-      timeSlot: TS1
-      radioId: id1
-      groupList: grp12
-      contact: cont13
-      power: !<!default> ""
-      timeout: !<!default> ""
-      vox: !<!default> ""
-  - digital:
-      id: ch44
       name: 2RMP 9 Local
       rxFrequency: 438.72500000000002
       txFrequency: 433.72500000000002
@@ -709,7 +574,172 @@ channels:
       timeout: !<!default> ""
       vox: !<!default> ""
   - digital:
+      id: ch36
+      name: 2RMP 5 Broadcasts
+      rxFrequency: 438.72500000000002
+      txFrequency: 433.72500000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp12
+      contact: cont13
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch37
+      name: 2RMP 3801 VK Chat
+      rxFrequency: 438.72500000000002
+      txFrequency: 433.72500000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp1
+      contact: cont2
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch38
+      name: 2RMP 3802 VK Chat
+      rxFrequency: 438.72500000000002
+      txFrequency: 433.72500000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp2
+      contact: cont3
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch39
+      name: 2RMP 3803 VK Chat
+      rxFrequency: 438.72500000000002
+      txFrequency: 433.72500000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp3
+      contact: cont4
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch40
+      name: 2RMP 3804 VK Chat
+      rxFrequency: 438.72500000000002
+      txFrequency: 433.72500000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp4
+      contact: cont5
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch41
+      name: 2RMP 3805 VK Chat
+      rxFrequency: 438.72500000000002
+      txFrequency: 433.72500000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp5
+      contact: cont6
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch42
+      name: 2RMP 3806 VK Chat
+      rxFrequency: 438.72500000000002
+      txFrequency: 433.72500000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp6
+      contact: cont7
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch43
+      name: 2RMP 3807 VK Chat
+      rxFrequency: 438.72500000000002
+      txFrequency: 433.72500000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp7
+      contact: cont8
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch44
+      name: 2RMP 3808 VK Chat
+      rxFrequency: 438.72500000000002
+      txFrequency: 433.72500000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp8
+      contact: cont9
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
       id: ch45
+      name: 2RMP 3809 VK Chat
+      rxFrequency: 438.72500000000002
+      txFrequency: 433.72500000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp9
+      contact: cont10
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch46
+      name: 2RMP 3810 WICEN
+      rxFrequency: 438.72500000000002
+      txFrequency: 433.72500000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp10
+      contact: cont11
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch47
       name: 2RMP 53 VK Chat
       rxFrequency: 438.72500000000002
       txFrequency: 433.72500000000002
@@ -724,7 +754,22 @@ channels:
       timeout: !<!default> ""
       vox: !<!default> ""
   - digital:
-      id: ch46
+      id: ch48
+      name: 2RMP 1 WW
+      rxFrequency: 438.72500000000002
+      txFrequency: 433.72500000000002
+      rxOnly: false
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: id1
+      groupList: grp11
+      contact: cont12
+      power: !<!default> ""
+      timeout: !<!default> ""
+      vox: !<!default> ""
+  - digital:
+      id: ch49
       name: VK Simplex
       rxFrequency: 439.19999999999999
       txFrequency: 439.19999999999999
@@ -740,19 +785,19 @@ channels:
 zones:
   - id: zone1
     name: VK2RWI Dural
-    A: [ch1, ch2, ch3, ch4, ch5, ch6, ch7, ch8, ch9, ch10, ch11, ch12, ch13, ch14, ch15]
+    A: [ch1, ch2, ch3, ch4, ch5, ch6, ch7, ch8, ch9, ch10, ch11, ch12, ch13, ch14, ch15, ch16]
     B: []
   - id: zone2
     name: VK2RCG Sydney
-    A: [ch16, ch17, ch18, ch19, ch20, ch21, ch22, ch23, ch24, ch25, ch26, ch27, ch28, ch29, ch30]
+    A: [ch17, ch18, ch19, ch20, ch21, ch22, ch23, ch24, ch25, ch26, ch27, ch28, ch29, ch30, ch31, ch32]
     B: []
   - id: zone3
     name: VK2RMP Austinmer
-    A: [ch31, ch32, ch33, ch34, ch35, ch36, ch37, ch38, ch39, ch40, ch41, ch42, ch43, ch44, ch45]
+    A: [ch33, ch34, ch35, ch36, ch37, ch38, ch39, ch40, ch41, ch42, ch43, ch44, ch45, ch46, ch47, ch48]
     B: []
   - id: zone4
     name: VK Simplex
-    A: [ch46]
+    A: [ch49]
     B: []
 commercial:
   encryptionKeys:
